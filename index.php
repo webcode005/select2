@@ -21,7 +21,15 @@
 
 ?>
 
-<form method="POST" action="index.php">
+<<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Add Dynamic Rows In Table Using PHP</title>
+</head>
+<body>
+
+            <form method="POST" action="index.php">
     <input type="text" name="customerName" placeholder="Enter customer name" required>
 
     <table>
@@ -87,3 +95,9 @@
     }
 
 </script>
+
+
+</body>
+</html>
+
+
